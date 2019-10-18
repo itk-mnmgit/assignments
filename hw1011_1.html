@@ -9,6 +9,16 @@
 
 <body class = "body">
 <div class="whole">
+
+    <header>
+        <div id="nav-drawer">
+            <input id="nav-input" type="checkbox" class="nav-unshown">
+            <label id="nav-open" for="nav-input"><span></span></label>
+            <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+            <div id="nav-content">中身入れてません</div>
+        </div>
+      </header>
+
 <!-- title -->
   <div class="title">
     1日旅行を勝手にプランニングするサイト
@@ -72,6 +82,23 @@
   </div>
 </div>
 
+<div class="q-box">
+  <h2>Q5.toggle 黒いボタンをクリック</h2>
+  <!-- <p class="description">
+    下の例のように、最初に小項目を隠して大項目のみ表示したい時に使えます。
+  </p> -->
+  <dl class="toggle-menu">
+    <dt class="js-toggle">Island</dt>
+    <dd>Cebu</dd>
+    <dd>Mactan</dd>
+    <dd>埼玉</dd>
+    <dd>神奈川</dd>
+    <dd>茨城</dd>
+    <dd>栃木</dd>
+    <dd>群馬</dd>
+  </dl>
+</div>
+
 <!-- しおり -->
 <div class="shiori", id="shiori">
 <p  class="shioriTitle">
@@ -114,7 +141,7 @@
     <img id="setpicture" src="" alt="scenary photo">
 
 </div>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="assets/js/hw1011.js"></script>
 </body>
 </html>

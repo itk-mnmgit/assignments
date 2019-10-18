@@ -26,3 +26,10 @@ function getPlace(place) {
   setplace.textContent = place.value;
   setpicture.src='img/'+place.value+'.png';
 }
+
+$(".js-toggle").on("click", function() {
+  $(this).toggleClass("on");
+  $(this)
+    .siblings()
+    .slideToggle();
+});
